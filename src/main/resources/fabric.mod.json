@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "command-rules-moggiwb8",
+  "version": "${version}",
+  "name": "DropMultiplier",
+  "description": "Server-side Fabric mod adding /multiplier and /mobmulti commands to control block and mob drop multipliers by multiplying item stack counts on pickup.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/command-rules-moggiwb8/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.commandrules.CommandRulesMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "command-rules-moggiwb8.mixins.json"
+  ]
+}

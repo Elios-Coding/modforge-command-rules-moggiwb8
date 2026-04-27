@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.modforge.commandrules.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CommandRulesModMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "minVersion": "0.8"
+}
